@@ -261,6 +261,103 @@
 
               </div>
               </p>
+                  <h3 class="display-5 mt-5 bg-warning pl-4 p-2 ">2. Intermediate HTML</h3>
+              <h4 class="display-5 bg-primary pl-4 mb-3">1.1. HTML Tables</h4>
+              <p class="lead ml-4">
+                <span class="bg-secondary text-light">Table tag</span>
+                The < table > tag defines an HTML table.<br/>
+                An HTML table consists of the < table > element and one or more < tr >, < th >, and < td > elements.
+              </p><br />
+              <div class="ml-3 text-danger">
+              < table border="3" bgcolor="red" cellpadding="8" cellspacing="5" width="30%" ><br/>
+                < thead ><br/>
+                 < tr ><br/>
+                  < th ><span class="text-dark font-weight-bold">Tomislav</span> < /th ><br/>
+                  < th ><span class="text-dark font-weight-bold">Mladen</span> < /th ><br/>
+                 < /tr ><br/>
+                < /thead ><br/>
+                < tbody ><br/>
+                 < tr ><br/>
+                   < td ><span class="text-dark font-weight-bold">1998</span>< /td ><br/>
+                   < td ><span class="text-dark font-weight-bold">1995</span>< /td ><br/>
+                 < /tr ><br/>
+                < /tbody ><br/>
+                < tfoot ><br/>
+                < tr ><br/>
+                  < td ><span class="text-dark font-weight-bold">Elektricar</span>< /td ><br/>
+                  < td ><span class="text-dark font-weight-bold">Varioc</span>< /td ><br/>
+                < /tr ><br/>
+                < /tfoot ><br/>
+              < /table ><br/><br/>
+             </div>
+             <span class="ml-4 font-weight-bold">Result:</span><br/><br/>
+             <div class="ml-3">
+             <table border="3" bgcolor="red" cellpadding="8" cellspacing="5" width="30%">
+               <thead>
+                <tr>
+                 <th><span class="text-dark font-weight-bold">Tomislav</span> </th>
+                 <th><span class="text-dark font-weight-bold">Mladen</span> </th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                  <td><span class="text-dark font-weight-bold">1998</span></td>
+                  <td><span class="text-dark font-weight-bold">1995</span></td>
+                </tr>
+               </tbody>
+               <tfoot>
+               <tr>
+                 <td><span class="text-dark font-weight-bold">Elektricar</span></td>
+                 <td><span class="text-dark font-weight-bold">Varioc</span></td>
+               </tr>
+               </tfoot>
+             </table>
+             </div><br/>
+             <h4 class="display-5 bg-primary pl-4 mb-3">1.2. HTML Forms</h4>
+             <p class="lead ml-4">
+               <span class="bg-secondary text-light">Form tag</span>
+               The < form > tag is used to create an HTML form for user input.<br/>
+               The < form > element can contain one or more of the following form elements:<br />
+               <ul>
+                 <li>< input ></li>
+                 <li>< textarea ></li>
+                 <li>< button ></li>
+                 <li>< select ></li>
+                 <li>< option ></li>
+                 <li>< optgroup ></li>
+                 <li>< fieldset ></li>
+                 <li>< label ></li>
+                 <li>< output ></li>
+                 </ul>
+             </p><br />
+             <div class="ml-3">
+               <p class="text-danger">
+                 < form action ="mailto:tomislavvrbicic@gmail.com" method ="get(or post)" enctype="text/plain" > <br />
+                 < label >Your Name:< /label ><br />
+                 < input type ="text" name="yourName" value=""><br />
+                 < label >Your Email:< /label ><br />
+                 < input type ="email" name="yourEmail" value=""><br />
+                  < label >Your Message:< /label ><br />
+                  < textarea name="yourMessage" rows="8" cols="80" placeholder="Write a Message Here..." >< /textarea ><br />
+                  < input type="submit" name=""><br />
+                  < /form >
+                 </p>
+             </div><br/>
+             <span class="ml-4 font-weight-bold">Result:</span><br/>
+             <div class="ml-3">
+               <p class="text-danger">
+                 <form action ="mailto:tomislavvrbicic@gmail.com" method ="get(or post)" enctype="text/plain"><br />
+                 <label >Your Name:</label><br />
+                 <input type ="text" name="yourName" value=""><br />
+                 <label >Your Email:</label><br />
+                 <input type ="email" name="yourEmail" value=""><br />
+                  <label >Your Message:</label><br />
+                  <textarea name="yourMessage" rows="8" cols="80" placeholder="Write a Message Here..." ></textarea><br />
+                  <input type="submit" name=""><br />
+                  </form >
+                 </p>
+             </div>
+                  
       </div>
       <div class="fixed-bottom">
        <div class="text-light bottom-fixed bg-dark pt-3 pb-3">
